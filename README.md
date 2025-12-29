@@ -1,75 +1,87 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# 🏛 Sculpture Techs — Modern Web Experience (React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# sculptor-tech
 Sculpture Techs is a redesigned and feature-enhanced website developed using **React.js** with a modern UI, improved responsiveness, and better user experience flow. This version introduces optimized navigation, a scalable component-based structure, and an integrated assistant/chatbot to help users interact with the platform more efficiently.
->>>>>>> 13ba4974cf1bbf740683d3fc302968829cd46d57
+
+---
+
+## 📌 Project Overview
+
+The objective of this project is to upgrade the existing Sculpture Techs website into a modern and responsive digital experience.  
+Key focus areas included:
+
+- UI & Design enhancement  
+- Website responsiveness across all screen sizes  
+- Improved performance and loading speed  
+- Easier scalability with reusable React components  
+- Integration of a chatbot/assistant to improve customer support  
+
+This project aligns with providing an elegant digital presence while improving visitor engagement.
+
+---
+
+## 🛠 Tech Stack
+
+| Category | Technology |
+|--------|------------|
+| Frontend | **React.js**, JavaScript (ES6+), React Router |
+| Styling | CSS3, Tailwind/Bootstrap (if used), Flex/Grid |
+| Deployment | **Vercel** |
+| Utilities | Git, npm |
+
+---
+
+## ✨ Key Improvements Over Old Website
+
+- Redesigned UI with clean and modern look  
+- Added responsive layout for mobile/tablet/desktop  
+- Component-based architecture for maintainability  
+- Faster performance with minimized and optimized assets  
+- Smooth navigation using client-side routing  
+- Integrated **AI chatbot/assistant** for better user support  
+- SEO-friendly code structure  
+
+---
+
+## 🤖 Chatbot / Assistant Feature
+
+A lightweight chatbot/assistant is integrated to help users interact with the website easily.
+
+**Features include:**
+- Basic conversational support  
+- Helps users navigate sections quickly  
+- Can provide information on services/products  
+- Extensible architecture to integrate AI (Dialogflow, OpenAI, Rasa, etc.)
+
+> Future versions may include NLP features, FAQs suggestions, context-aware replies, backend data connectivity.
+
+---
+
+## 📁 Folder Structure
+Sculpture-Techs/
+│── public/
+│── src/
+│ ├── components/
+│ ├── pages/
+│ ├── assets/
+│ ├── App.js
+│ ├── index.js
+│── .gitignore
+│── package.json
+│── README.md
+
+---
+
+## 🚀 Local Setup & Development
+
+```bash
+# Clone the repository
+git clone <repository-link>
+
+# Navigate into folder
+cd sculpture-techs
+
+# Install dependencies
+npm install
+
+# Run development server
+npm start
