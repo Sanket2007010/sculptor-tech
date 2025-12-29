@@ -57,4 +57,31 @@ A lightweight chatbot/assistant is integrated to help users interact with the we
 ---
 
 ## 📁 Folder Structure
+Sculpture-Techs/
+│── public/
+│── src/
+│ ├── components/
+│ ├── pages/
+│ ├── assets/
+│ ├── App.js
+│ ├── index.js
+│── .gitignore
+│── package.json
+│── README.md
 
+---
+
+## 🚀 Local Setup & Development
+
+```bash
+# Clone the repository
+git clone <repository-link>
+
+# Navigate into folder
+cd sculpture-techs
+
+# Install dependencies
+npm install
+
+# Run development server
+npm start
