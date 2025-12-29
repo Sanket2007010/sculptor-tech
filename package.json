@@ -20,6 +20,11 @@
   "test": "react-scripts test",
   "eject": "react-scripts eject"
 }
+  "dependencies": {
+  "react": "^18.x",
+  "react-dom": "^18.x",
+  "react-scripts": "5.0.1"
+}
 
   "browserslist": {
     "production": [
