@@ -1,0 +1,131 @@
+.contact-section {
+  background: linear-gradient(135deg, #0a1224 0%, #111a33 100%);
+  color: #e5e7eb;
+  padding: 4rem 1.5rem;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .contact-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Left Info Section */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: rgba(255,255,255,0.05);
+  padding: 1rem;
+  border-radius: 10px;
+  border-left: 3px solid #22d3ee;
+  transition: 0.3s;
+}
+
+.contact-item:hover {
+  background: rgba(255,255,255,0.08);
+  transform: translateX(5px);
+}
+
+.contact-icon {
+  color: #22d3ee;
+  font-size: 1.6rem;
+}
+
+.contact-label {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #22d3ee;
+}
+
+.contact-value {
+  color: #cbd5e1;
+  font-size: 0.95rem;
+}
+
+/* Social Links */
+.social-links {
+  display: flex;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.social-link {
+  width: 3rem;
+  height: 3rem;
+  background: rgba(34, 211, 238, 0.15);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #22d3ee;
+  font-size: 1.25rem;
+  transition: 0.3s;
+}
+
+.social-link:hover {
+  background: rgba(34, 211, 238, 0.3);
+  transform: scale(1.12);
+}
+
+/* Right Form Section */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.15);
+  color: #fff;
+  backdrop-filter: blur(8px);
+  transition: 0.3s ease;
+}
+
+.form-input::placeholder {
+  color: #9ca3af;
+}
+
+.form-input:focus {
+  border-color: #22d3ee;
+  background: rgba(255,255,255,0.12);
+  box-shadow: 0 0 10px rgba(34,211,238,0.4);
+}
+
+/* Button */
+.submit-btn {
+  padding: 0.9rem 1.5rem;
+  background: linear-gradient(90deg, #22d3ee, #00e6e6);
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0a1224;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(90deg, #00e6e6, #22d3ee);
+  transform: translateY(-3px);
+}
+
+.submit-btn:active {
+  transform: scale(0.97);
+}

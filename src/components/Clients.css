@@ -1,0 +1,38 @@
+.clients-section {
+  background-color: #f3f4f6;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.clients-slider {
+  width: 90%;
+  margin: auto;
+}
+
+.client-card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.client-card:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.client-logo {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: 0.3s ease-in-out;
+}
+
+.client-logo:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
